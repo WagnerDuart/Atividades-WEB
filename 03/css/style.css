@@ -1,0 +1,18 @@
+body{
+  height: 100vh;
+  background-image :url(../images/GWR_Home.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 128px 50px 128px;
+}
+@media (max-width: 768px){
+  body{
+    padding: 30px 30px 25px 30px;
+  }
+}
+
+
